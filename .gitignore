@@ -1,0 +1,53 @@
+# Unity .gitignore
+
+# Unity tarafindan otomatik olusturulan klasorler (yuklenmemeli)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset store ve paket gecici dosyalari
+/[Aa]ssets/Plugins/Editor/JetBrains*
+/[Aa]ssets/AssetStoreTools*
+
+# Visual Studio / VS Code / Rider dosyalari
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Derleme ciktilari
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# Crash ve log dosyalari
+sysinfo.txt
+crashlytics-build.properties
+
+# Isletim sistemi dosyalari
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Not: .meta dosyalari YUKLENMELI, bunlari ignore etme!
